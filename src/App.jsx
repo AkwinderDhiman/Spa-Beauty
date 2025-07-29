@@ -7,6 +7,7 @@ import Price from './pages/Price';
 import ContactUs from './pages/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Pages from './pages/Pages';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/pages" element={<Pages />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
